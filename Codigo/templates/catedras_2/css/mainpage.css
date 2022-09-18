@@ -1,0 +1,1061 @@
+body {
+
+	background-color: rgba(246, 245, 243, .95) !important;
+  
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    background-size: 100% auto;
+
+}
+
+
+.contenedor_diracad h1,
+.contenedor_diracad h2,
+.contenedor_diracad h3,
+.contenedor_diracad h4 {
+
+  	color: #539734 !important;
+
+}
+
+
+.home-link {
+
+    color: #fff;
+
+}
+
+
+
+.home-link:hover {
+
+    color: #fff;
+
+    text-decoration: underline;
+
+}
+
+
+
+.home-image {
+
+    height: 100%;
+
+    top: 0;
+
+	position: fixed;
+
+}
+
+
+
+.home-image > img {
+
+    width: 100%;   
+
+}
+
+
+
+#left-column {
+
+    margin: 40px 50px;
+
+	float: left;
+
+	min-height: 65%;
+
+	width: 340px;
+
+}
+
+
+
+#left-column > div.container {
+    float: left;
+	margin-bottom: 10px;
+}
+
+
+.container_menu{
+    margin-bottom: 10px;
+}
+
+.logo_sobre_menu{
+    background-color: transparent !important;
+    padding-left: 0 !important;
+}
+
+
+
+
+.titulos{
+  	text-align: left;
+}
+
+
+
+#right-column {
+
+    margin: 40px 50px;
+
+	float: right;
+
+	min-height: 65%;
+
+    width: 340px;
+
+}
+
+
+
+#right-column > div {
+
+    float: right;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+div.new {
+
+    position: absolute;
+
+    right: -48px;
+
+    height: 28px;
+
+    width: 57px;
+
+    background-image: url('http://www.catedras-bogota.unal.edu.co/templates/catedras_2/images/new.png');
+
+} 
+
+
+
+/* Bloqueo Publicidad */
+
+.ad-overlay {
+
+    display: none !important;
+
+}
+
+
+
+/* Estilos Gabriel: Temporal el container */
+
+.container, .news-list-view {
+
+	position:relative; 
+
+	bottom:0; 
+
+	width: 90%; 
+
+	/* max-height:340px; */
+
+	padding:10px; 
+
+	/*float:right; */
+
+	/* background: rgba(64, 64, 64, 0.75); */ 
+
+}
+
+
+
+.culturaUN { 
+
+    width:320px; 
+
+    height:320px; 
+
+    margin:0 auto; 
+
+    background-color:#000; 
+
+    color:#FFF; 
+
+    border-bottom:6px solid #50992E; 
+
+    text-align:justify;
+
+}
+
+.news-list-article { 
+
+    position: relative;
+
+    width:320px; 
+
+    height:155px; 
+
+    margin:0 auto 10px auto; 
+
+    background-color:#FFF; 
+
+    border-bottom:6px solid #50992E; 
+
+    text-align:justify;
+
+}
+
+
+
+.news-list-category, #culturaUN {
+
+    width:100%; 
+
+    height:30px; 
+
+    color:#FFF; 
+
+    text-align:left; 
+
+    padding-left:7px; 
+
+    line-height:30px; 
+
+    vertical-align:middle; 
+
+    font-size:1.2em; 
+
+    background-color:#00b2b8; 
+
+    /** background-image:url(../images/backContainer.png); **/
+
+    background-repeat:no-repeat; 
+
+    background-position:right;
+
+}
+
+
+
+.news-list-title {
+
+    font-size:1.6em; 
+
+    padding:5px 10px; 
+
+    line-height:1em;
+
+}
+
+
+
+.news-list-body {
+
+    padding:0 10px; 
+
+    vertical-align:middle;
+
+}
+
+
+
+.news-list-body img {
+
+    margin:0 10px 10px 0; 
+
+    width:105px; 
+
+    height:55px; 
+
+    float:left;
+
+}
+
+
+
+.news-list-teaser {
+
+    max-height: 43px;
+
+    overflow: hidden;
+
+}
+
+
+
+.news-list-teaser p {
+
+    line-height: 1em;
+
+}
+
+
+
+.news-list-more {
+
+    position: absolute;
+
+    bottom: -5px;
+
+    right: 8px;
+
+}
+
+
+
+.left-menu {
+
+    width: 100%;
+
+}
+
+.parrafo{
+  	text-align: left;
+    width: 95%;
+}
+
+.video-description {
+
+    color: #fff;
+
+    line-height: 1em;
+
+    padding: 3px 10px;
+
+    font-size: 0.9em;
+
+}
+
+ul{
+  	list-style-type: disc;
+}
+
+
+.bottom_buttons {
+
+	width: 100%;
+
+	background: rgba(64, 64, 64, 0.75) none repeat scroll 0% 0%;
+
+	text-align: center;
+
+	padding: 3px;
+
+	clear: both;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.bottom_buttons img {
+
+    float:center; 
+
+    margin:1px 0; 
+
+}
+
+
+
+.bottom_buttons img:hover {
+
+    background: rgba(255, 255, 255, 0.25);
+
+}
+
+
+
+.bottom {
+
+    bottom:0; 
+
+}
+
+/*Pequeño arreglo para menu lateral*/
+
+@media (min-width: 992px){
+	.col-md-3 {
+    	margin-left: 20px;
+	}  
+}
+
+.catedra-logo {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.btn-wid {
+
+    width: 100%; 
+
+    background-color: #00b2b8;
+
+    background-image: url(http://www.catedras-bogota.unal.edu.co/templates/catedras_2/images/mark.png); 
+
+    background-position:right; 
+
+    background-repeat:no-repeat;
+  	
+  	background-size: auto 100%;
+
+}
+
+.youtube-tab{
+  	background-color: #ff0048 !important;
+}
+
+.youtube-tab p{
+  	color: white !important;
+}
+
+
+
+.btn-wid.btn-light {
+
+    background-color: #00fff3;
+
+}
+
+
+
+.btn-wid:last-child {
+
+    margin-bottom: -8px; /* temporal */
+
+}
+
+
+
+.btn-wid:hover {
+
+    background-color:#07635e;
+
+}
+
+
+
+.btn-wid.btn-light:hover {
+
+    background-color:#aaa;
+
+}    
+
+.btn-wid p {
+
+    font-size:1.15em; 
+
+    color:#FFF; 
+
+    text-align:left; 
+
+    padding:4px 14px;
+  	
+  	font-weight: bold;
+    
+  	cursor: pointer;
+
+}
+
+.btn-wid a {
+
+    color:#FFF; 
+
+    text-decoration:none;
+
+}
+
+
+
+.btn-wid.btn-light a {
+
+    color: #4f4f4f;
+
+}
+
+
+
+.btn-wid.gray {
+
+    background-color: #50992e;
+
+}
+
+
+
+.btn-wid.gray:hover {
+
+    background-color: #aaa;
+
+}
+
+
+
+.btn-wid.gray a {
+
+    color: #fff;
+
+}
+
+.btn-wid-garcia:hover {
+  background-color: rgb(255,148,0) !important;
+}
+
+.btn-wid-ancizar:hover {
+  background-color: rgb(0,144,181) !important;
+}
+
+.btn-wid-mutis:hover {
+  background-color: rgb(0,162,72) !important;
+}
+
+.btn-wid-gaitan:hover {
+  background-color: rgb(197,0,66) !important;
+}
+
+.btn-wid-musical:hover {
+  background-color: rgb(141,0,27) !important;
+}
+
+.btn-wid-marta:hover {
+  background-color: rgb(161,26,131) !important;
+}
+
+.btn-wid-huellas:hover {
+  background-color: rgb(103,0,210) !important;
+}
+
+.btn-wid-sesquicentenario:hover {
+  background-color: rgb(0,92,112) !important;
+}
+
+.links-t1{
+  	font-size: 18px;
+  	font-weight: bold;
+}
+
+
+
+/* FIN Estilos  */
+
+
+
+/* News: Mosaic List */
+
+.eventos_academicos_title,
+
+.news-mosaic-header {
+
+    background-color: #00b2b8;
+
+    color: white;
+
+    font-size: 1.2em;
+
+    height: 30px;
+
+    line-height: 30px;
+
+    overflow: hidden;
+
+    padding: 0 7px;
+
+    text-align: left;
+
+    vertical-align: middle;
+
+    width: 100%;
+
+}
+
+
+
+.eventos_academicos_title > a {
+
+    color: white;    
+
+}
+
+
+
+.eventos_academicos_title > a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+.see_all {
+
+    float: right;
+
+    text-decoration: underline;
+
+    font-size: 0.8em;
+
+}
+
+
+
+.eventos_academicos_link {
+
+	font-size: 0.85em;
+
+	background-color: #ddd;
+
+	padding: 10px;
+
+	text-align: center;
+
+}
+
+
+
+.eventos_academicos_link > a {
+
+    color: #4b4b4b;    
+
+}
+
+
+
+.eventos_academicos_link > a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+.news-mosaic-header > a {
+
+    color: white;
+
+    display: inline-block;
+
+    float: right;
+
+    font-size: 0.8em;
+
+    text-decoration: underline;
+
+}
+
+
+
+.news-mosaic-article {
+
+    float: left;
+
+    height: 95px;
+
+    overflow: hidden;
+
+    width: 160px;
+
+}
+
+
+
+.news-mosaic-body, .news-mosaicvice-body{
+
+    position: relative;
+
+}
+
+
+
+.news-mosaic-image {
+
+    height: 95px;
+
+    width: 160px;
+
+}
+
+
+
+.news-mosaicvice-image {
+
+    height: 95px;
+
+    width: 320px;
+
+}
+
+
+
+.news-mosaic-image a img {
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+.news-mosaic-title, .news-mosaicvice-title {
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    bottom: 0;
+
+    font-size: 0.9em;
+
+    min-height: 38px;
+
+    overflow: hidden;
+
+    padding: 5px;
+
+    position: absolute;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.news-mosaicvice-title {
+
+    height: 26px;
+
+}
+
+
+
+.news-mosaic-title span, .news-mosaicvice-title span {
+
+    color: white;
+
+}
+
+
+
+.eventos_academicos_footer,
+
+.news-mosaic-footer {
+
+    background-color: #50992e;
+
+    clear: both;
+
+    height: 5px;
+
+    width: 100%;
+
+}
+
+
+
+.menu-sede {
+
+    float: right;
+
+    margin-right: 96px;
+
+}
+
+
+
+/* News: Mosaic Vice List */
+
+
+
+.news-mosaicvice-article {
+
+    float: left;
+
+    font-size: 1.4em;
+
+    height: 95px;
+
+    overflow: hidden;
+
+    width: 320px;
+
+}
+
+
+
+.news-mosaicvice-article .news-mosaic-title {
+
+    padding: 3px 15px;
+
+}
+
+
+
+/* Override */
+
+.btn.btn-default.dropdown-toggle {
+
+    font-size: 1em;
+
+}
+
+
+
+.navigation .btn {
+
+    padding: 6px 4px;
+
+}
+
+
+
+footer .csc-frame.csc-frame-indent p {
+
+    line-height: 1.2em;
+
+}
+
+
+
+#unalTop .buscador {
+
+    width: 240px;
+
+}
+
+
+
+#unalTop .buscador .gsc-control-searchbox-only .gsc-input, .buscador .gsc-input-box {
+
+    background: #fff;
+
+}
+
+
+
+#unalTop .buscador .gsc-search-button {
+
+    float: none;
+
+    height: 32px !important;
+
+    width: 32px !important;
+
+}
+
+
+
+a.gray_button {
+
+    background-image: url("http://www.catedras-bogota.unal.edu.co/templates/catedras_2/images/gray_button_background.png"); 
+
+    width: 260px;
+
+    height: 50px;
+
+    display: inline-block;
+
+    color: #fff;
+
+    font-size: 1.2em;
+
+    /* font-weight: bold; */
+
+    line-height: 50px;
+
+    letter-spacing: 0.05em;
+
+	text-decoration: none !important; 
+
+}
+
+
+
+a.gray_button:hover, a.gray_button:active, a.gray_button:visited {
+
+    text-decoration: none !important; 
+
+	color: #fff;
+
+}
+
+
+
+div.hoy-y-ahora {
+
+	height: 89px;
+
+	width: 182px;
+
+	overflow: hidden;
+
+	/* background-color: rgba(255,255,255,0.5); */
+
+}
+
+
+
+div.hoy-y-ahora > a img {    
+
+    /* margin-left: 10px; */
+
+}
+
+
+
+/* Dispositivos móviles - Medidas no ortodoxas pero evitan que se vea feo*/
+
+@media (max-width: 1210px) {
+
+	
+
+	body {
+
+		background-size: auto 100%;
+
+	}
+
+
+
+    .btn.btn-default.dropdown-toggle {
+
+        font-size: 0.9em;
+
+    }
+
+	.navigation .site-url {
+
+		margin: 10px 10px 12px 250px;
+
+	}
+
+}
+
+
+
+@media (max-width: 1110px) {
+
+    .btn.btn-default.dropdown-toggle {
+
+        font-size: 0.75em;
+
+    }
+
+}
+
+
+
+@media (max-width: 991px) {
+
+    .menu-sede {
+
+        float: none;
+
+    }
+
+	
+
+	#unalTop .buscador {
+
+		top: 114px;
+
+	}
+
+	
+
+	#right-column {
+
+		margin: 40px 50px 40px 0px;
+
+	}
+
+	
+
+	#left-column {
+
+		margin: 40px 0px 40px 50px;
+
+	}
+
+	
+
+	footer .footer-info {
+
+		border-left: none !important;
+
+	}
+
+	
+
+	.btn.btn-default.dropdown-toggle {
+
+        font-size: 1em;
+
+    }
+
+	
+
+	.col-md-3.col-lg-3.col-sm-3.col-xs-6.gobiernoLinea {
+
+		width: 50%;
+
+	}
+
+	.col-md-4.footer-info.col-lg-4.col-sm-4.col-xs-12,
+
+	.col-md-2.col-lg-2.col-sm-2.col-xs-12.logos	{
+
+		width: 100%;
+
+	}
+
+}
+
+
+
+@media (max-width: 849px) {
+
+    #left-column, #right-column {	
+
+        float: none;
+
+		width: 340px;
+
+		margin: 0 auto;
+
+    }
+
+	
+
+	#right-column {
+
+		clear: both;
+
+		position: relative;
+
+		top: 10px;
+
+	}
+
+	.navigation .site-url {
+
+		margin: 10px 10px 12px 14px;
+
+	}	
+
+}
+
+
+
+@media (max-width: 768px) {	
+
+	#unalTop .buscador {
+
+		width: 95%;
+
+	}	
+
+}
+

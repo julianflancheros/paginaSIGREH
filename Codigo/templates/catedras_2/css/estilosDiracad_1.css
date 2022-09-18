@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+body{
+  background-color: #FFFFFF;
+}
+
+.row_diracad{
+  margin-right: 0px;
+  margin-left: -15px;
+}
+
+div.contenedor_diracad p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+div.contenedor_diracad h1{
+  color:#039e96; 
+  font-weight:bold;
+  margin-bottom: 1.1em;
+  font-size: 30px;
+  margin-top: 1.1em;
+}
+
+div.contenedor_diracad h2{
+  font-size: 25px;
+  color:#039e96; 
+  font-weight:bold;
+  margin-bottom: 1.1em;
+  margin-top: 1.1em;
+}
+
+div.contenedor_diracad h3{
+  font-size: 20px;
+  color:#039e96; 
+  font-weight:bold;
+  margin-bottom: 1.1em;
+  margin-top: 1.1em;
+}
+
+
+
+@media only screen and (min-width: 1350px){
+  div.contenedor_diracad {
+    background: rgba(246,245,243,.95);
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 1349px){
+  div.contenedor_diracad {
+    background: rgba(246,245,243,.95);
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .col-md-9{
+	position: inherit;
+  }
+}
+
+
+/* Botones */
+.btn-wid-presionado {
+	background-color: #07635e;
+}
+
+
+
+
+/* Listas */
+.ul_diracad li{
+  list-style-image: url(http://www.catedras-bogota.unal.edu.co/templates/catedras_2/images/bullet.png);
+}
+
+.ol_diracad li, .ul_diracad li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5em;
+  padding-top: 7px;
+}
+
+
+
+div.contenedor_diracad table th, div.contenedor_diracad table td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+div.contenedor_diracad th {
+    background-color: #007f8b;
+    color: white;
+}
+
+div.contenedor_diracad td {
+    color: black;
+}
+
+
+.img_video:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.img_video{
+  transition: 1s;
+}
